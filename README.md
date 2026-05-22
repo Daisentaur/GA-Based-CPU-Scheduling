@@ -37,7 +37,7 @@ Under a linear lateness penalty, being 100 ticks late costs the same per-tick as
 
 Concretely: SRTF has the lowest raw waiting time of all five algorithms, yet its combined cost (542.89) is *higher* than the GA's (508.92). SRTF's aggressive preemption continuously postpones long jobs until every short job has run, causing those long jobs to miss their deadlines by huge margins. The GA learns to pull some long jobs forward, accepting a small wait-time penalty in exchange for a large reduction in squared lateness.
 
-## Project structure
+## Project structure and layout
 
 ```
 ga-cpu-scheduler-xv6/
