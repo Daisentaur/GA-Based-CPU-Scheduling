@@ -227,7 +227,7 @@ Even with windowed sampling, the deltas are nearly uniform (6–7 ticks each) si
 ```
 multipliers = [1, 4, 8, 2, 6, 3, 7, 2, 5, ...]
 base unit   = 3 ticks
-→ burst times: 3, 12, 24, 6, 18, 9, 21, 6, 15, ...
+→ burst times: 3, 12, 24, 6, 18, 9, 21, 6, ...
 ```
 
 Arrival times are then compressed into a window equal to 40% of total burst time, ensuring the CPU is never idle and processes genuinely compete.
