@@ -12,7 +12,7 @@ RR (q=4)      56.23     68.46      1413.08          160  (-64.0% vs GA)
 ```
 *13-process workload run inside xv6/QEMU. Lower combined cost = better.*
 
-## Why this exists
+## Purpose of creation
 
 Every paper we found on GA-based CPU scheduling runs on simulated process data with hardcoded arrival and burst times. We wanted to know what happens when you run a GA against processes that actually exist in a kernel — with real arrival ticks, real CPU consumption, and the constraints that come with integer-only arithmetic and a 4KB kernel stack.
 
