@@ -16,7 +16,7 @@ RR (q=4)      56.23     68.46      1413.08          160  (-64.0% vs GA)
 
 Every paper we found on GA-based CPU scheduling runs on simulated process data with hardcoded arrival and burst times. We wanted to know what happens when you run a GA against processes that actually exist in a kernel — with real arrival ticks, real CPU consumption, and the constraints that come with integer-only arithmetic and a 4KB kernel stack.
 
-The short answer: it works, and it beats every classical baseline on a multi-objective metric that accounts for deadline compliance. The slightly longer answer is in [our paper](paper/FinalReportOs.pdf).
+The short answer: it works, and it beats every classical baseline on a multi-objective metric that accounts for deadline compliance. The slightly longer answer is in [our paper](Report.pdf).
 
 ## What it does, end to end
 
